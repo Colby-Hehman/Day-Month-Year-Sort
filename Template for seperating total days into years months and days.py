@@ -1,7 +1,13 @@
+'''
+This is a very simple program. Just enter the amount of days you want sorted in the total_days variable and the rest will work on its own. The start_phrase and end_phrase variables
+are basically useless, but if you want you can write something in them and it will appear before or after the years, months, and days are read. This was my first ever programming
+project and I did not even know how to use functions at the time.
+'''
+
 # Data to enter
 total_days = 368
-start_phrase = "It will take you "
-end_phrase = "to finish writing this program!"
+start_phrase = ""
+end_phrase = ""
 # Sorts total days into years, months, and days
 years_count_int = int(total_days / 365.25)
 months_count_int = int((total_days - years_count_int * 365.25) / 30.416666666)
