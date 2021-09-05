@@ -17,74 +17,74 @@ def day_sorter(total_days):
         if months_count_int > 1:
             if days_count_int > 1:
                 return (years_count + " years, " + months_count + " months, and "
-                        + days_count + " days ")
+                        + days_count + " days")
             elif days_count_int > 0:
                 return (years_count + " years, " + months_count + " months, and "
-                        + days_count + " day ")
+                        + days_count + " day")
             else:
-                return years_count + " years and " + months_count + " months "
+                return years_count + " years and " + months_count + " months"
         elif months_count_int > 0:
             if days_count_int > 1:
                 return (years_count + " years, " + months_count + " month, and "
-                        + days_count + " days ")
+                        + days_count + " days")
             elif days_count_int > 0:
                 return (years_count + " years, " + months_count + " month, and "
-                        + days_count + " day ")
+                        + days_count + " day")
             else:
-                return years_count + " years and " + months_count + " month "
+                return years_count + " years and " + months_count + " month"
         else:
             if days_count_int > 1:
-                return years_count + " years and " + days_count + " days "
+                return years_count + " years and " + days_count + " days"
             elif days_count_int > 0:
-                return years_count + " years and " + days_count + " day "
+                return years_count + " years and " + days_count + " day"
             else:
                 return years_count + " years "
     elif years_count_int > 0:
         if months_count_int > 1:
             if days_count_int > 1:
                 return (years_count + " year, " + months_count + " months, and "
-                        + days_count + " days ")
+                        + days_count + " days")
             elif days_count_int > 0:
                 return (years_count + " year, " + months_count + " months, and "
-                        + days_count + " day ")
+                        + days_count + " day")
             else:
-                return years_count + " year and " + months_count + " months "
+                return years_count + " year and " + months_count + " months"
         elif months_count_int > 0:
             if days_count_int > 1:
                 return (years_count + " year, " + months_count + " month, and "
-                        + days_count + " days ")
+                        + days_count + " days")
             elif days_count_int > 0:
                 return (years_count + " year, " + months_count + " month, and "
-                        + days_count + " day ")
+                        + days_count + " day")
             else:
-                return years_count + " year and " + months_count + " month "
+                return years_count + " year and " + months_count + " month"
         else:
             if days_count_int > 1:
-                return years_count + " year and " + days_count + " days "
+                return years_count + " year and " + days_count + " days"
             elif days_count_int > 0:
-                return years_count + " year and " + days_count + " day "
+                return years_count + " year and " + days_count + " day"
             else:
-                return years_count + " year "
+                return years_count + " year"
     else:
         if months_count_int > 1:
             if days_count_int > 1:
-                return months_count + " months and " + days_count + " days "
+                return months_count + " months and " + days_count + " days"
             elif days_count_int > 0:
-                return months_count + " months and " + days_count + " day "
+                return months_count + " months and " + days_count + " day"
             else:
-                return months_count + " months "
+                return months_count + " months"
         elif months_count_int > 0:
             if days_count_int > 1:
-                return months_count + " month and " + days_count + " days "
+                return months_count + " month and " + days_count + " days"
             elif days_count_int > 0:
-                return months_count + " month and " + days_count + " day "
+                return months_count + " month and " + days_count + " day"
             else:
-                return months_count + " month "
+                return months_count + " month"
         else:
             if days_count_int > 1:
-                return days_count + " days "
+                return days_count + " days"
             elif days_count_int > 0:
-                return days_count + " day "
+                return days_count + " day"
             else:
-                return " 0 days "
+                return "0 days"
 
