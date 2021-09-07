@@ -1,2 +1,2 @@
 # Day-Month-Year-Sort
-This is a function that uses one parameter (total_days) and sorts them into a gramatically accurate string using years, months, and days. For instance, if you entered the number "367" you would be returned 
+This is a function that uses one parameter (total_days) and sorts them into a gramatically accurate string using years, months, and days. For instance, if you entered "day_sorter(488)" you would be returned the string "1 year, 4 months, and 1 day." If you entered "day_sorter(9152)" you'd be returned "25 years and 20 days." This program even takes in account leap years, with one day being subtracted after ever four years.
