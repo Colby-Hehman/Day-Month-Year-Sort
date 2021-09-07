@@ -4,10 +4,14 @@ This was my first ever programming project and I did not even know how to use fu
 '''
 
 def day_sorter(total_days):
+    # Accounts for leap years
+    if total_days >= 1460:
+        total_years = total_days / 365.25
+        total_days = total_days - total_years / 4
     # Sorts total days into years, months, and days
-    years_count_int = int(total_days / 365.25)
-    months_count_int = int((total_days - years_count_int * 365.25) / 30.416666666)
-    days_count_int = int(total_days - years_count_int * 365.25 - months_count_int * 30.416666666)
+    years_count_int = int(total_days / 365)
+    months_count_int = int((total_days - years_count_int * 365) / 30.416666666)
+    days_count_int = int(total_days - years_count_int * 365 - months_count_int * 30.416666666)
     # This converts the final numbers into strings for return ing
     years_count = str(years_count_int)
     months_count = str(months_count_int)
